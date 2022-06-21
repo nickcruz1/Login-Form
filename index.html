@@ -14,11 +14,10 @@
 
 <!-- Features to Add:
 
-1. Sign up Button 
+1. Sign up Button (Modal) 
 2. Social Media Connection buttons 
 3. Change design of form 
 4. Make this project responsive
-
 
 -->
 
@@ -48,6 +47,22 @@
   </div>
   <div class="btn btn-primary border border-light text-center text-light col-lg-3 col-6 m-auto d-block mt-2 mb-2"style="background-color: rgb(0,172,238); border-radius: 20px;">
     <i class="bi bi-twitter"></i> Sign In With Twitter
+  </div>
+   
+   
+    <!-- Modal section -->
+  <div id="modal" class="bg-dark">
+    <div id="closeModal" onclick="closeModal()" class="btn btn-danger text-center text-danger bg-light mt-2">
+      X
+      </div>
+    <div class="row d-flex justify-content-center p-3">
+      <h2 class="text-center text-light pt-2">Sign Up User</h2>
+      <label for="username">Username</label>
+      <input type="text">
+      <label for="password">Password</label>
+      <input type="text">
+    </div>
+    <button class="btn btn-success p-1 mb-3">Save Changes</button>
   </div>
 
 
