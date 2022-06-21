@@ -33,3 +33,14 @@ function alertS() {
   username.style.border = "2px solid lightgreen";
   password.style.border = "2px solid lightgreen";
 }
+
+function modal() {
+  let modal = document.getElementById("modal");
+  modal.style.display = "block";
+  modal.style.transition = "all 2s";
+}
+
+function closeModal() {
+  let modal = document.getElementById("modal");
+  modal.style.display = "none";
+}
