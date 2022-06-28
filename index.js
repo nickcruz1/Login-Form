@@ -44,3 +44,15 @@ function closeModal() {
   let modal = document.getElementById("modal");
   modal.style.display = "none";
 }
+
+function saveChanges() {
+  let saveBtn = document.getElementById("saveBtn");
+  let modalUser = document.getElementById("modalUsername");
+  let modalPassword = document.getElementById("modalPassword");
+  
+  if(saveBtn.click = true) {
+    alert("Your Info Has Been Saved");
+    modalUser.value = "";
+    modalPassword.value = "";
+  }
+}
