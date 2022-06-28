@@ -44,3 +44,24 @@ a {
   border-right: 1px solid white;
   margin-top: 10rem;
 }
+
+#leftInput {
+  border-right: 1px solid white;
+}
+
+header {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+
+#closeModal {
+  background-color: red;
+  color: white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+}
