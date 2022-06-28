@@ -18,3 +18,29 @@ body {
     border: 1px solid white;
   }
 }
+
+#modal {
+  display: none;
+  border: 2px solid blue;
+  width: 300px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#leftSide {
+  border-right: 1px solid white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#leftSide {
+  border-right: 1px solid white;
+  margin-top: 10rem;
+}
