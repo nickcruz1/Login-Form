@@ -1,3 +1,5 @@
+// Think of some logic additions for this project // 
+
 function login() {
   let username = document.getElementById("username");
   let password = document.getElementById("password");
