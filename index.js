@@ -1,4 +1,5 @@
 // Think of some logic additions for this project // 
+// Add more animations?
 
 function login() {
   let username = document.getElementById("username");
